@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: #1f2a44;
+    padding: 15px 0;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.images-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.images-grid img,
+.card img {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin-top: 15px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background: #1f2a44;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #31406a;
+}
+
+footer {
+    background: #eee;
+    text-align: center;
+    padding: 15px;
+}
+
+.jfifvi{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.info{
+    margin-top: 20px;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .header-flex {
+        flex-direction: column;
+    }
+
+    .price-cards {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    nav a {
+        margin: 10px;
+    }
+}
+
+.svjz{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.lflflflf{
+    width: 32px;
+}
